@@ -21,7 +21,7 @@ export const ProductSection = ({ isLoading, products, title }: Props) => {
   const isTablet = useIsTablet();
   const [showAll, setShowAll] = useState(false);
 
-  const initialLength = isMobile ? 2 : isTablet ? 4 : 7;
+  const initialLength = isMobile ? 2 : isTablet ? 5 : 6;
 
   const handleViewAll = () => {
     setShowAll(true);
